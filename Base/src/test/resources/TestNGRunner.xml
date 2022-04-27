@@ -1,0 +1,30 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+
+<suite name="App" verbose="1" >
+
+    <listeners>
+        <listener class-name="listeners.AnnotationTransformer"/>
+    </listeners>
+
+    <parameter name="browser" value="chrome"/>
+
+    <test name="BAT - Integration">
+        <parameter name="driverConfigEnabled" value="false"/>
+        <classes>
+
+        </classes>
+    </test>
+
+    <!--    <test name="BAT - System">-->
+    <!--        <classes>-->
+    <!--            <class name="test_app.build_acceptance.system.Authentication"/>-->
+    <!--        </classes>-->
+    <!--    </test>-->
+
+    <!--    <test name="Smoke">-->
+    <!--        <classes>-->
+    <!--            <class name="test_app.smoke.registration.Registration"/>-->
+    <!--        </classes>-->
+    <!--    </test>-->
+
+</suite>
