@@ -76,6 +76,12 @@
             <artifactId>extentreports</artifactId>
 
         </dependency>
+        <dependency>
+            <groupId>click.webelement</groupId>
+            <artifactId>parameterized-findby</artifactId>
+            <version>1.0.0</version>
+            <scope>compile</scope>
+        </dependency>
 
     </dependencies>
 </project>
