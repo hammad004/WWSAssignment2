@@ -18,7 +18,7 @@
     <dependencies>
         <dependency>
             <groupId>org.example</groupId>
-            <artifactId>WWSAssignment2</artifactId>
+            <artifactId>Base</artifactId>
             <version>1.0-SNAPSHOT</version>
         </dependency>
     </dependencies>
